@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.me {
+
+  max-width: 400px;
+  width: 400px;
+  height: 150px;
+  max-height: 150px;
+  
+  margin-left:40px;
+  margin-top: -5vh;
+  border-radius: 0.2vh;
+ 
+  position: relative;
+  background-image: url("https://cdn.discordapp.com/attachments/913877366147801088/939938530732437564/Group_1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        word-wrap: break-word;
+}
+
+.nametag{
+  position: absolute;
+  color: white;
+  display: block;
+  top: -85%;
+  left: 15%;
+
+}
+
+.metag{
+  position: absolute;
+  color: white;
+  background-image: url("https://cdn.discordapp.com/attachments/913877366147801088/939962640632008764/me.png");
+  display: block;
+  top:20%;
+  left: 103%;
+  width: 16%;
+  height: 100%;
+  transform: scale(0.7);
+
+}
+
+
+.dotag{
+  position: absolute;
+  color: white;
+  background-image: url("https://cdn.discordapp.com/attachments/913877366147801088/939962640401305660/do.png");
+  display: block;
+  top:20%;
+  left: 103%;
+  width: 16%;
+  height: 100%;
+  transform: scale(0.7);
+
+}
+
+/* .me:before {
+  content: "";
+  position: absolute;
+  left:2vh;
+  top: 40px;
+  border: solid 18px transparent;
+  border-right-color: #d80606;
+  border-radius: .55vh;
+  transform: rotate(-90deg);
+} */
+
+.inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+   width: 75%;
+  height: 30%;
+  left: 10%;
+  top: 30%;
+  text-align: start;
+        
+     
+       
+
+ 
+}
+
+.icon {
+  margin-left: -2vh;
+  margin-bottom: 8vh;
+  background-color: #28272e00;
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.inner p {
+  font-weight: 300;
+  padding-left: 6vh;
+  padding-right: 2vh;
+  word-wrap: break-word;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+img{
+        border-width: 0.29px;
+        border-style: solid;
+        border-radius: 50%;
+        background-color: rgb(32, 31, 36);
+        box-shadow: 0px 4px 25.38px 1.62px rgba(0, 0, 0, 0.47);
+        position: absolute;
+
+        left: -25px;
+        top: -30px;
+        width: 50px;
+        height: 50px;
+        z-index: 7;
+
+}
